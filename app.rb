@@ -33,6 +33,8 @@ class App < Sinatra::Base
       @operation = +
     elsif @opertaion == 'subtract'
       @operation = -
+    elsif @opertaion == 'divide'
+      @operation = /
       
     
     
